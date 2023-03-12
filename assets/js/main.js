@@ -24,14 +24,14 @@ inputsTLeft.addEventListener("keyup", (e) => {
 
 inputsBLeft.addEventListener("keyup", (e) => {
 
-    box.style.borderBottomLeftRadius = `${parseInt(inputsTLeft.value)}px`;
+    box.style.borderBottomLeftRadius = `${parseInt(inputsBLeft.value)}px`;
 
 });
 
 
 inputsTRigth.addEventListener("keyup", (e) => {
 
-    box.style.borderTopRightRadius = `${parseInt(inputsTLeft.value)}px`;
+    box.style.borderTopRightRadius = `${parseInt(inputsTRigth.value)}px`;
 
 });
 
@@ -39,6 +39,6 @@ inputsTRigth.addEventListener("keyup", (e) => {
 
 inputsBRigth.addEventListener("keyup", (e) => {
 
-    box.style.borderBottomRightRadius = `${parseInt(inputsTLeft.value)}px`;
+    box.style.borderBottomRightRadius = `${parseInt(inputsBRigth.value)}px`;
 
 });

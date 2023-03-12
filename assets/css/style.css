@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body, html {
@@ -9,13 +11,20 @@ body, html {
 }
 
 body {
-    background-color: #622972;
+    background-color: #16161a;
 
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/* TITLE-PAGE */
+
+.title-page {
+    color: #fffffe;
+    margin-bottom: 30px;
 }
 
 /* CONTAINER-CONFIG */
@@ -46,7 +55,7 @@ body {
 
     padding: 10px;
 
-    background-color: #5D0F4C;    
+    background-color: #7f5af0;    
 
 }
 
@@ -60,11 +69,11 @@ input[type="text"] {
     text-align: center;
 
     outline: 0;
-    border: 3px solid #9B4D8A;
+    border: 3px solid #94a1b2;
     border-radius: 5px;
 
-    background-color: #B97CAC;
-    color: #3E0030;
+    background-color: #72757e;
+    color: #fffffe;
 }
 
 
