@@ -7,3 +7,65 @@
 body, html {
     height: 100%;
 }
+
+body {
+    background-color: #622972;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* CONTAINER-CONFIG */
+
+.container-config {
+
+    width: 800px;
+    height: 250px;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
+
+.left, .rigth {
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: flex-end;
+
+}
+
+#box {
+
+    padding: 10px;
+
+    background-color: #5D0F4C;    
+
+}
+
+.rigth {
+    align-items: flex-start;
+}
+
+input[type="text"] {
+
+    width: 50px;
+    text-align: center;
+
+    outline: 0;
+    border: 3px solid #9B4D8A;
+    border-radius: 5px;
+
+    background-color: #B97CAC;
+    color: #3E0030;
+}
+
+
+/* SOURCE */
